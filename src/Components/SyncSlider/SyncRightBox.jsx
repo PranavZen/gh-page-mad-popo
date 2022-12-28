@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { bannerBg5, bannerBg6, bannerBg7 } from "../index";
 
 function SyncRightBox(props) {
@@ -46,21 +47,21 @@ function SyncRightBox(props) {
                                             <li className="disabled coodiv-text-11">{props.planIcon} {props.planList4}</li>
                                         </ul>
                                     </div>
-                                    <a href="#" className="btn btn-special-home-plan
+                                    <Link to="#" className="btn btn-special-home-plan
                                         with-icon coodiv-hover-y px-xl-8 px-lg-4
                                         px-sm-8 px-4 rounded-20 coodiv-text-12
-                                        text-uppercase">Try The Plan Now</a>
+                                        text-uppercase">Try The Plan Now</Link>
                                     <div className="pricing-box-one-payment
                                         text-center mt-5">
-                                        <a href="#"><img
+                                        <Link to="#"><img
                                                 src={bannerBg5}
-                                                alt="" /></a>
-                                        <a href="#"><img
+                                                alt="" /></Link>
+                                        <Link to="#"><img
                                                 src={bannerBg6}
-                                                alt="" /></a>
-                                        <a href="#"><img
+                                                alt="" /></Link>
+                                        <Link to="#"><img
                                                 src={bannerBg7}
-                                                alt="" /></a>
+                                                alt="" /></Link>
                                     </div>
                                 </div>
                            
