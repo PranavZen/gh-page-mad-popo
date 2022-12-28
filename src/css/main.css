@@ -26,7 +26,7 @@
 }
 .feather {
   font-family: "feather" !important;
-  speak: none;
+  /* speak: none; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;

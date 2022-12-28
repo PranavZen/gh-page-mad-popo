@@ -9,7 +9,7 @@ import Home from './Pages/Home';
 import ContactUs from "./Pages/ContactUs";
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/contact" element={<ContactUs />}/>
